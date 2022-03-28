@@ -7,9 +7,9 @@ import org.junit.Test;
 
 public class MySQLConnectonTest {
 	
-	private static final String DRIVER ="com.mysql.cj.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://127.0.0.1:3306"
-			+ "/book_ex?useSSL=false&serverTimezone=Asia/Seoul";
+	private static final String DRIVER ="com.mysql.jdbc.Driver";
+	private static final String URL = "jdbc:mysql://127.0.0.1:3308"
+			+ "/book_ex?useSSL=false";
 	private static final String USER = "zerock";
 	private static final String PW = "zerock";
 	
