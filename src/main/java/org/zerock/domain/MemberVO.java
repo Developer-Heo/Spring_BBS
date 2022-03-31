@@ -3,13 +3,14 @@ package org.zerock.domain;
 import java.util.Date;
 
 public class MemberVO {
-	
+
 	private String userid;
 	private String userpw;
 	private String username;
 	private String email;
 	private Date regdate;
 	private Date updatedate;
+	
 	public String getUserid() {
 		return userid;
 	}
@@ -46,7 +47,16 @@ public class MemberVO {
 	public void setUpdatedate(Date updatedate) {
 		this.updatedate = updatedate;
 	}
-	
-	
-
+	@Override
+	public String toString() {
+		return "MemberVO [userid=" + userid + ", userpw=" + userpw
+		+ ", username=" + username + ", email=" + email + ", regdate="
+		+ regdate + ", updatedate=" + updatedate + ", getUserid()="
+		+ getUserid() + ", getUserpw()=" + getUserpw()
+		+ ", getUsername()=" + getUsername() + ", getEmail()="
+		+ getEmail() + ", getRegdate()=" + getRegdate()
+		+ ", getUpdatedate()=" + getUpdatedate() + ", getClass()="
+		+ getClass() + ", hashCode()=" + hashCode() + ", toString()="
+		+ super.toString() + "]";
+	}
 }

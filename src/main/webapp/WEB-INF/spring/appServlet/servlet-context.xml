@@ -24,6 +24,6 @@
 
 	<context:component-scan base-package="org.zerock.web" />
 	
+</beans:beans>	
 	
-	
-</beans:beans>
+
